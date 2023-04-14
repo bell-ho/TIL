@@ -13,6 +13,6 @@
 * ISR 증분 정적 재생성
   * 어느 정도의 주기로 정적 페이지를 다시 렌더링함
 * 이미지 최적화
-  * 모듈 loader : 'akamai' , vercel로 배포하는 경우 loader 속성 지정 필요 없음
+  * 모듈 loader : 'akamai' , vercel로 배포하는 경우 loader 속성 필요 없음
 </div>
 </details>
