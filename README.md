@@ -14,5 +14,19 @@
   * 어느 정도의 주기로 정적 페이지를 다시 렌더링함
 * 이미지 최적화
   * 모듈 loader : 'akamai' , vercel로 배포하는 경우 loader 속성 필요 없음
+
+</div>
+</details>
+
+<details>
+<summary>Spring</summary>
+<div markdown="1">
+
+* 템플릿 메서드 패턴
+* 전략 패턴
+* 템플릿 콜백 패턴
+* 프록시 패턴
+* 데코레이터 패턴
+  
 </div>
 </details>
