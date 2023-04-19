@@ -2,6 +2,16 @@
 
 <br/>
 <details>
+<summary>Code</summary>
+<div markdown="1">
+
+* 단일 책임 원칙 (SRP)
+  * 변경 지점을 하나로 모아서 변경에 쉽게 대처할 수 있는 구조
+
+</div>
+</details>
+
+<details>
 <summary>Next.js</summary>
 <div markdown="1">
 
@@ -22,8 +32,6 @@
 <summary>Spring</summary>
 <div markdown="1">
 
-* 단일 책임 원칙 (SRP)
-  * 변경 지점을 하나로 모아서 변경에 쉽게 대처할 수 있는 구조
 * 템플릿 메서드 패턴
   * 변하는 부분(핵심 기능)과 변하지 않는 부분(추가 기능)을 분리하는 방법
 * 전략 패턴
