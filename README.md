@@ -58,6 +58,6 @@
   * 타겟 : 어드바이스를 받는 객체, 포인트컷으로 결정
   * 에스팩트 : 어드바이스 + 포인트컷을 모듈화 한것
   * 위빙 : 포인트컷으로 결정한 타겟의 조인 포인트에 어드바이스를 적용하는 것
-  
+  * 동일한 Aspect에서의 실행 순서 : @Around => @Before => @After => @AfterReturning => @AfterThrowing
 </div>
 </details>
