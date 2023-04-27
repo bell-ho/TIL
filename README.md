@@ -32,6 +32,8 @@
 <summary>Spring</summary>
 <div markdown="1">
 
+* Transactional
+  * @Transactional(propagation = Propagation.REQUIRES_NEW) : 새로운 트랜잭션을 생성하고 기존 트랜잭션이 있으면 일시 중단, 기능 완료되면 원래 트랜잭션 다시 시작
 * 프록시
   * 클라이언트가 서버에 직접 요청 하는게 아니라 대리자를 통해 간접적으로 서버에 요청하는것
   * 접근 제어, 캐싱, 부가 기능 추가, 프록시 체인
