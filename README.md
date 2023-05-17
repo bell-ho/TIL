@@ -4,7 +4,9 @@
 <details>
 <summary>클린코드</summary>
 <div markdown="1">
-
+ 
+* 표면적 수준에서 개선
+ 
 </div>
 </details>
 
