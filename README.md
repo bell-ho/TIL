@@ -29,7 +29,12 @@
   * 어느 정도의 주기로 정적 페이지를 다시 렌더링함
 * 이미지 최적화
   * 모듈 loader : 'akamai' , vercel로 배포하는 경우 loader 속성 필요 없음
-
+* .next 폴더
+  * 네트워크에 보이는 html과 자바스크립트 파일은 .next 폴더에 있음
+  * cache, server, static 폴더
+    * static / chunk / pages 안에는 getStaticProps-해시값의 이름의 자바스크립트 파일이 있음, 브라우저는 이것을 다운로드함
+    * server / pages 안에는 html과 json이 있음
+ 
 </div>
 </details>
 <details>
