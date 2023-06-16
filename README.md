@@ -34,7 +34,13 @@
   * cache, server, static 폴더
     * static / chunk / pages 안에는 getStaticProps-해시값의 이름의 자바스크립트 파일이 있음, 브라우저는 이것을 다운로드함
     * server / pages 안에는 html과 json이 있음
- 
+* next/image
+  * 서버에서 자동으로 이미지 용량 최적화를 해줌 => webp 형식이기때문
+  * quality props를 통해 얼마나 최적화 할지 정할 수 있음 기본은 75
+  * placeholder="blur" 를 하면 blur 이미지가 자동으로 적용됨
+  * next/image는 외부 이미지의 높이와 너비를 알 수 없음 그래서 빌드타임에 최적화 하지 못함 => 외부 링크를 사용할 때는 width와 height를 넣어야함
+    * 가로 세로 크기를 모르는 외부링크를 사용시 fill 속성을 사용하고 부모 태그로 감싼뒤 position을 relative/absolute/fixed 등으로 설정하고 부모의 사이즈를 설정함
+  * 사진이 납작해 보일 때는 objectFit 속성을 추가하면됨 contain 또는 cover
 </div>
 </details>
 <details>
