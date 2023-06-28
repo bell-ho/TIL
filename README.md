@@ -41,6 +41,8 @@
   * next/image는 외부 이미지의 높이와 너비를 알 수 없음 그래서 빌드타임에 최적화 하지 못함 => 외부 링크를 사용할 때는 width와 height를 넣어야함
     * 가로 세로 크기를 모르는 외부링크를 사용시 fill 속성을 사용하고 부모 태그로 감싼뒤 position을 relative/absolute/fixed 등으로 설정하고 부모의 사이즈를 설정함
   * 사진이 납작해 보일 때는 objectFit 속성을 추가하면됨 contain 또는 cover
+* next.configs
+  * reactStrictMode : 디버깅을 위해 useEffect 구문을 두번 실행함 불필요 하면 false
 </div>
 </details>
 <details>
