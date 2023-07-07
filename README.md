@@ -45,6 +45,17 @@
   * reactStrictMode : 디버깅을 위해 useEffect 구문을 두번 실행함 불필요 하면 false
 </div>
 </details>
+
+
+<details>
+<summary>react-query</summary>
+<div markdown="1">
+
+* suspense
+
+</div>
+</details>
+
 <details>
 <summary>Code</summary>
 <div markdown="1">
