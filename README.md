@@ -43,6 +43,8 @@
   * 사진이 납작해 보일 때는 objectFit 속성을 추가하면됨 contain 또는 cover
 * next.configs
   * reactStrictMode : 디버깅을 위해 useEffect 구문을 두번 실행함 불필요 하면 false
+* next-seo
+  
 </div>
 </details>
 
