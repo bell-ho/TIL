@@ -109,6 +109,11 @@
 <div markdown="1">
  
 * GitHub Action
+  * 용어
+    * workflow : 하나 이상의 작업을 실행하는 프로세스
+    * event : 워크플로우 실행을 트리거하는 레포지토리 내의 특정 활동
+    * runner : job을 실행하는 서버 각 러너는 하나의 job 실행
+    * job : 러너에서 실행되는 step의 집합
  
 </div>
 </details>
