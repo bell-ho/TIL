@@ -114,6 +114,7 @@
     * event : 워크플로우 실행을 트리거하는 레포지토리 내의 특정 활동
     * runner : job을 실행하는 서버 각 러너는 하나의 job 실행
     * job : 러너에서 실행되는 step의 집합
- 
+    * step : job이 실행하는 개별 명령, 이전의 step 이 실패하면 그 다음은 진행 안함
+    * action : 특정 작업을 수행하는 코드 조각, 하나의 step 에서 하나의 action 만 가능
 </div>
 </details>
