@@ -118,5 +118,6 @@
     * action : 특정 작업을 수행하는 코드 조각, 하나의 step 에서 하나의 action 만 가능
   * 깃헙 마켓플레이스
     * 액션 저장소, 이미 있는 액션을 사용하면 편리함
+  * push : action이 실행되려면 .github/workflows 디렉토리 안에 yaml로 정의된 파일이 있어야함
 </div>
 </details>
